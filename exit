@@ -1,0 +1,79 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 8a7a60c..28151f9 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -3,7 +3,16 @@[m
+ 		<title>Point of Sale System</title>[m
+ 	</head>[m
+ 	<body>[m
+[31m-		<h1>Point of Sale System</h1>		[m
+[32m+[m		[32m<h1>Point of Sale System</h1>[m
+[32m+[m		[32m<h2>System Administration</h2>[m
+[32m+[m		[32m<ul>[m
+[32m+[m			[32m<li><a href="./systemAdministration/createNewStaff.html">Create New Staff</a></li>[m
+[32m+[m			[32m<li><a href="./systemAdministration/viewStaffDetails.html">View Staff Details</a></li>[m
+[32m+[m			[32m<li><a href="./systemAdministration/viewAllStaffs.html">View All Staffs</a></li>[m
+[32m+[m			[32m<li><a href="./systemAdministration/createNewProduct.html">Create New Product</a></li>[m
+[32m+[m			[32m<li><a href="./systemAdministration/viewProductDetails.html">View Product Details</a></li>[m
+[32m+[m			[32m<li><a href="./systemAdministration/viewAllProducts.html">View All Products</a></li>[m
+[32m+[m		[32m</ul>[m[41m		[m
+ 		<p>[m
+ 			<hr/>[m
+ 			<h6>&copy; 2020 IS2103 Enterprise Systems Server-side Design and Development</h6>[m
+[1mdiff --git a/systemAdministration/createNewStaff.html b/systemAdministration/createNewStaff.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7465668[m
+[1m--- /dev/null[m
+[1m+++ b/systemAdministration/createNewStaff.html[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<html>[m
+[32m+[m	[32m<head>[m
+[32m+[m		[32m<title>Point of Sale System :: System Administration</title>[m
+[32m+[m	[32m</head>[m
+[32m+[m	[32m<body>[m
+[32m+[m		[32m<h1>Point of Sale System :: System Administration</h1>[m
+[32m+[m		[32m<h2>Create New Staff</h2>[m
+[32m+[m		[32m<p>[m
+[32m+[m			[32m<a href="../index.html">Back</a>[m
+[32m+[m		[32m</p>[m
+[32m+[m	[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/systemAdministration/viewAllStaffs.html b/systemAdministration/viewAllStaffs.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..50a437d[m
+[1m--- /dev/null[m
+[1m+++ b/systemAdministration/viewAllStaffs.html[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<html>[m
+[32m+[m	[32m<head>[m
+[32m+[m		[32m<title>Point of Sale System :: System Administration</title>[m
+[32m+[m	[32m</head>[m
+[32m+[m	[32m<body>[m
+[32m+[m		[32m<h1>Point of Sale System :: System Administration</h1>[m
+[32m+[m		[32m<h2>View All Staffs</h2>[m
+[32m+[m		[32m<p>[m
+[32m+[m			[32m<a href="../index.html">Back</a>[m
+[32m+[m		[32m</p>[m
+[32m+[m	[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/systemAdministration/viewStaffDetails.html b/systemAdministration/viewStaffDetails.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..109c2ca[m
+[1m--- /dev/null[m
+[1m+++ b/systemAdministration/viewStaffDetails.html[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<html>[m
+[32m+[m	[32m<head>[m
+[32m+[m		[32m<title>Point of Sale System :: System Administration</title>[m
+[32m+[m	[32m</head>[m
+[32m+[m	[32m<body>[m
+[32m+[m		[32m<h1>Point of Sale System :: System Administration</h1>[m
+[32m+[m		[32m<h2>View Staff Details</h2>[m
+[32m+[m		[32m<p>[m
+[32m+[m			[32m<a href="../index.html">Back</a>[m
+[32m+[m		[32m</p>[m
+[32m+[m	[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
